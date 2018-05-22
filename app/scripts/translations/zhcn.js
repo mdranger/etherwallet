@@ -4,63 +4,63 @@ var zhcn = function() {}
 zhcn.code = 'zhcn';
 zhcn.data = {
 
-GEN_Help_0                      :  'Already have a wallet somewhere?',
-GEN_Help_MetaMask               :  'So easy! Keys stay in MetaMask, not on a phishing site! Try it today.',
+GEN_Help_0                      :  '已经有以太坊钱包了?',
+GEN_Help_MetaMask               :  '很简单的，密钥对会存储在MetaMask中，不会被钓鱼网站截获，马上试试？',
 
-GEN_Warning_1                   :  '**Do not lose it!** It cannot be recovered if you lose it.',
-GEN_Warning_2                   :  '**Do not share it!** Your funds will be stolen if you use this file on a malicious/phishing site.',
-GEN_Warning_3                   :  '**Make a backup!** Secure it like the millions of dollars it may one day be worth.',
+GEN_Warning_1                   :  '**切勿丢失Do not lose it!** 丢了就再也找不回了',
+GEN_Warning_2                   :  '**切勿打开分享Do not share it!** 如果在钓鱼网站使用这个文件，你的帐号有被盗风险',
+GEN_Warning_3                   :  '**一定要备份Make a backup!** 好好保护文件，将来它价值千金.',
 
-GAS_Price_1                     : 'Not So Fast',
-GAS_Price_2                     : 'Fast',
-GAS_Price_3                     : 'Fast AF',
+GAS_Price_1                     : '缓慢',
+GAS_Price_2                     : '快',
+GAS_Price_3                     : '飞快',
 
-CONTRACT_Helper_1               :  'Please change the address to your own Multisig Contract Address.',
-CONTRACT_Warning_1              :  'You are about to **deploy a contract**.',
-CONTRACT_Warning_2              :  'It will be deployed on the following network:',
-CONTRACT_Warning_3              :  'You are about to **execute a function on contract**.',
+CONTRACT_Helper_1               :  '请将帐号地址改为你多重签名合约的地址.',
+CONTRACT_Warning_1              :  '你将要**部署智能合约了**.',
+CONTRACT_Warning_2              :  '合约将会被部署到这个区块链网络:',
+CONTRACT_Warning_3              :  '**你正要调用一个智能合约**.',
 
-SEND_Helper_Contract            :  'In most cases you should leave this as 0.',
-SEND_ViewOnly                   :  'You cannot send with only your address. You must use one of the other options to unlock your wallet in order to send.',
-SEND_LoadTokens                 :  'Load Tokens',
-SEND_CustomAddrMsg              :  'A message regarding',
+SEND_Helper_Contract            :  '通常情况本项可以为0.',
+SEND_ViewOnly                   :  '仅有帐号地址无法执行操作，需要解锁钱包进行操作.',
+SEND_LoadTokens                 :  '加载代币',
+SEND_CustomAddrMsg              :  '本信息是关于',
 
-SWAP_Warning_1                  :  'Warning! You do not have enough funds to complete this swap.',
-SWAP_Warning_2                  :  'Please add more funds to your wallet or access a different wallet.',
+SWAP_Warning_1                  :  '警告！帐号中没有足够的金额完成操作.',
+SWAP_Warning_2                  :  '请增加钱包中的资金或使用另一个有足够资金的钱包.',
 
-X_Advanced                      :  'Advanced Users Only.',
-X_HelpfulLinks                  :  'Helpful Links & FAQs',
-X_HelpfulLinks_1                :  'How to Access your Wallet',
-X_HelpfulLinks_2                :  'I lost my private key',
-X_HelpfulLinks_3                :  'My private key opens a different address',
-X_HelpfulLinks_4                :  'Migrating to/from MyEtherWallet',
-X_Network                       :  'Network', // aka "node" or "chain" - used in the dropdown in header
-X_Network_Custom                :  'Add Custom Network / Node',
+X_Advanced                      :  '仅限高级用户.',
+X_HelpfulLinks                  :  '常见问题和帮助链接',
+X_HelpfulLinks_1                :  '如何使用你的钱包',
+X_HelpfulLinks_2                :  '我丢失了密钥',
+X_HelpfulLinks_3                :  '我的密钥与公钥地址不符',
+X_HelpfulLinks_4                :  '从 MyEtherWallet 导入/导出钱包',
+X_Network                       :  '区块链网络', // aka "node" or "chain" - used in the dropdown in header
+X_Network_Custom                :  '增加自定义区块链节点',
 
-DOMAIN_Buy                      :  'Buy the domain',
-DOMAIN_BuyItNow                 :  'Price to buy the domain immediately:',
-DOMAIN_bid                      :  'Bid for the domain',
-DOMAIN_bid_0                    :  'You are currently winning this auction with the highest bid. You can bid higher if you want, but it will delay the close of the auction for 24 hours.',
-DOMAIN_bid_1                    :  'Bid at least',
+DOMAIN_Buy                      :  '购买域名',
+DOMAIN_BuyItNow                 :  '可以立刻购买域名的价格:',
+DOMAIN_bid                      :  '为域名出价',
+DOMAIN_bid_0                    :  '你的出价目前已经赢得了拍卖.你可以继续加价，但这样会推迟拍卖的结束时间24小时.',
+DOMAIN_bid_1                    :  '最低出价',
 DOMAIN_bid_2                    :  'on the domain.',
-DOMAIN_bid_3                    :  'You will win the domain if no higher bids are placed within the next 24 hours.',
+DOMAIN_bid_3                    :  '如果没有高出你的出价，那么拍卖会在24小时内结束.',
 DOMAIN_bid_4                    :  'Note that the domain has a locked value of',
 DOMAIN_bid_5                    :  'As part of the sale you will receive the deed with this value but cannot claim it unless you release the name.',
 DOMAIN_Finish_1                 :  'Not related to that auction',
 DOMAIN_Finish_2                 :  'This address is neither the winner nor the seller of the auction.',
-DOMAIN_Finish_3                 :  'Finish the auction',
+DOMAIN_Finish_3                 :  '拍卖完成',
 DOMAIN_Finish_4                 :  'Finish the auction to allocate the domain to the winner and the funds to the seller.',
 DOMAIN_Finish_5                 :  'Click your TX hash to see if you successfully transferred the domain to DomainSale.',
 DOMAIN_offer_4                  :  'Offer For Sale:',
 DOMAIN_offer_5                  :  'Set either of both of the prices below to offer your domain for sale.  Remember that any funds you have locked in the domain\'s deed will go to the buyer and 10% of the funds when sold goes to referrers.',
 DOMAIN_offer_7                  :  'Alter Your Offer for:',
 DOMAIN_offer_8                  :  'Change either of both of the prices below to alter your domain sale offer.  Remember that any funds you have locked in the domain\'s deed will go to the buyer and 10% of the funds when sold goes to referrers.',
-DOMAIN_offer_9                  :  'Buy price',
+DOMAIN_offer_9                  :  '购买价格',
 DOMAIN_offer_10                 :  'This is the price at which someone can buy the domain immediately. 0 means that the domain cannot be purchased immediately.',
 DOMAIN_offer_11                 :  'This is the price at which someone can start an auction for the domain.  0 means that the domain will not be available for auction.',
-DOMAIN_offer_12                 :  'Offer your domain',
-DOMAIN_offer_13                 :  'Alter your sale',
-DOMAIN_offer_14                 :  'Cancel your sale',
+DOMAIN_offer_12                 :  '提供域名',
+DOMAIN_offer_13                 :  '修改你的拍卖',
+DOMAIN_offer_14                 :  '取消你的拍卖',
 DOMAIN_offer_15                 :  'You can cancel your domain sale, which will return the domain to you with no charge.  This is only available before any bids have been received for the domain.',
 
 ENS_WrongAddress_1              :  'The wallet you unlocked does not own the name ',
@@ -205,64 +205,62 @@ ONBOARD_resume                  :  '好像你上次还没有读完整个教程. 
 HELP_2a_Title               : '如何保存/备份我的钱包? ',
 
 /* New Generics */
-x_CancelReplaceTx           : 'Cancel or Replace Transaction',
-x_CancelTx                  : 'Cancel Transaction',
-x_PasswordDesc              : 'This password * encrypts * your private key. This does not act as a seed to generate your keys. **You will need this password + your private key to unlock your wallet.**',
-x_ReadMore                  : 'Read More',
-x_ReplaceTx                 : 'Replace Transaction',
-x_TransHash                 : 'Transaction Hash',
-x_TXFee                     : 'TX Fee',
-x_TxHash                    : 'TX Hash',
+x_CancelReplaceTx           : '取消或者替换交易',
+x_CancelTx                  : '取消交易',
+x_PasswordDesc              : '这个密码是用来 * 加密 * 你的私钥. 而不是作为产生密钥对的种子. **你需要这个密码加上你的私钥来解锁你的钱包.**',
+x_ReadMore                  : '继续阅读',
+x_ReplaceTx                 : '替换交易',
+x_TransHash                 : '交易的哈希值/杂凑值（HASH）',
+x_TXFee                     : '交易费用',
+x_TxHash                    : '交易哈希值（HASH）',
 
 /* Check TX Status */
-NAV_CheckTxStatus           : 'Check TX Status',
-NAV_TxStatus                : 'TX Status',
-tx_Details                  : 'Transaction Details',
-tx_Summary                  : 'During times of high volume (like during ICOs) transactions can be pending for hours, if not days. This tool aims to give you the ability to find and "cancel" / replace these TXs. ** This is not typically something you can do. It should not be relied upon & will only work when the TX Pools are full. [Please, read about this tool here.](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html)**',
-tx_notFound                 : 'Transaction Not Found',
-tx_notFound_1               : 'This TX cannot be found in the TX Pool of the node you are connected to.',
-tx_notFound_2               : 'If you just sent the transaction, please wait 15 seconds and press the "Check TX Status" button again. ',
-tx_notFound_3               : 'It could still be in the TX Pool of a different node, waiting to be mined.',
-tx_notFound_4               : 'Please use the dropdown in the top-right & select a different ETH node (e.g. `ETH (Etherscan.io)` or `ETH (Infura.io)` or `ETH (MyEtherWallet)`) and check again.',
-tx_foundInPending           : 'Pending Transaction Found',
-tx_foundInPending_1         : 'Your transaction was located in the TX Pool of the node you are connected to. ',
-tx_foundInPending_2         : 'It is currently pending (waiting to be mined). ',
-tx_foundInPending_3         : 'There is a chance you can "cancel" or replace this transaction. Unlock your wallet below.',
-tx_FoundOnChain             : 'Transaction Found',
-tx_FoundOnChain_1           : 'Your transaction was successfully mined and is on the blockchain.',
-tx_FoundOnChain_2           : '**If you see a red `( ! )`, a `BAD INSTRUCTION` or `OUT OF GAS` error message**, it means that the transaction was not successfully *sent*. You cannot cancel or replace this transaction. Instead, send a new transaction. If you received an "Out of Gas" error, you should double the gas limit you specified originally.',
-tx_FoundOnChain_3           : '**If you do not see any errors, your transaction was successfully sent.** Your ETH or Tokens are where you sent them. If you cannot see this ETH or Tokens credited in your other wallet / exchange account, and it has been 24+ hours since you sent, please [contact that service](https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html). Send them the *link* to your transaction and ask them, nicely, to look into your situation.',
+NAV_CheckTxStatus           : '查看交易情况',
+NAV_TxStatus                : '交易情况',
+tx_Details                  : '交易详细信息',
+tx_Summary                  : '当区块链的写入信息很多时，交易可能会等待数小时甚至更长。 此工具旨在让您能够查找和替换这些交易。**请注意，提交的交易通常不可以替换，只有当系统拥堵或者交易费用过低时可以尝试这个操作。[请在这里找到更详细信息](https://myetherwallet.github.io/knowledge-base/transactions/check-status-of-ethereum-transaction.html)**',
+tx_notFound                 : '没找到交易记录',
+tx_notFound_1               : '这个交易在当前连接的区块链节点上没有记录',
+tx_notFound_2               : '如果交易刚刚发送，请等待15秒再按"查看交易情况"按钮.',
+tx_notFound_3               : '交易可能位于不同节点的交易池（TX Pool）中等待区块确认.',
+tx_notFound_4               : '请使用右上角的下拉菜单并选择一个不同的区块链节点来试试.',
+tx_foundInPending           : '找到了一个正在确认的交易.',
+tx_foundInPending_1         : '本交易在当前连接的区块链节点的交易池（TX Pool）中. ',
+tx_foundInPending_2         : '交易正在被确认(等待写入区块/被挖出). ',
+tx_foundInPending_3         : '目前有可能"取消"或者替换这个交易，请先在下面解锁你的帐号.',
+tx_FoundOnChain             : '交易记录查到了',
+tx_FoundOnChain_1           : '你的交易成功被写入区块链了',
+tx_FoundOnChain_2           : '**如果你看到任何红色的`( ! )`, `BAD INSTRUCTION` 或者 `OUT OF GAS`错误信息**, 表明交易没有成功*发送*. 你不能取消或者替换这个交易，但可以发送一个新的交易. 如果看到了"Out of Gas"错误, 表明Gas的数量不够，可以增加到原来两倍的Gas再试试.',
+tx_FoundOnChain_3           : '**如果你没有看到任何错误信息，你的交易已经成功发送.** 你的ETH或者代币应该发送到目的帐号。如果24小时之后，你还没有在目的帐号中看见相应变化，请联系 [contact that service](https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html). 把你的*交易链接*发给他们并请他们查看你的情况.',
 
 /* Gen Wallet Updates */
-GEN_Help_1                  : 'Use your',
-GEN_Help_2                  : 'to access your account.',
-GEN_Help_3                  : 'Your device * is * your wallet.',
-GEN_Help_4                  : 'Guides & FAQ',
-GEN_Help_5                  : 'How to Create a Wallet',
-GEN_Help_6                  : 'Getting Started',
+GEN_Help_1                  : '使用你的',
+GEN_Help_2                  : '来解锁你的帐号.',
+GEN_Help_3                  : '你的设备*是*你的钱包.',
+GEN_Help_4                  : '指南和常见问题',
+GEN_Help_5                  : '如果创建新钱包',
+GEN_Help_6                  : '开始吧',
 GEN_Help_7                  : 'Keep it safe · Make a backup · Don\'t share it with anyone · Don\'t lose it · It cannot be recovered if you lose it.',
-GEN_Help_8                  : 'Not Downloading a File? ',
-GEN_Help_9                  : 'Try using Google Chrome ',
-GEN_Help_10                 : 'Right click & save file as. Filename: ',
-GEN_Help_11                 : 'Don\'t open this file on your computer ',
-GEN_Help_12                 : 'Use it to unlock your wallet via MyEtherWallet (or Mist, Geth, Parity and other wallet clients.) ',
-GEN_Help_13                 : 'How to Back Up Your Keystore File ',
-GEN_Help_14                 : 'What are these Different Formats? ',
-GEN_Help_15                 : 'Preventing loss &amp; theft of your funds.',
-GEN_Help_16                 : 'What are these Different Formats?',
-GEN_Help_17                 : 'Why Should I?',
-GEN_Help_18                 : 'To have a secondary backup.',
-GEN_Help_19                 : 'In case you ever forget your password.',
-GEN_Help_20                 : 'Cold Storage',
-GET_ConfButton              : 'I understand. Continue.',
-GEN_Label_5                 : 'Save Your `Private Key`. ',
-GEN_Unlock                  : 'Unlock your wallet to see your address',
-GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GWEI`.',
-GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETH = `21000`. Sending Tokens = ~`200000`.',
-NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
-TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.myetherwallet.com/helpers.html)',
-
-
+GEN_Help_8                  : '没有文件下载？',
+GEN_Help_9                  : '试一试 Google Chrome ',
+GEN_Help_10                 : '右击并存储文件为.文件名: ',
+GEN_Help_11                 : '不要在计算机上打开这个文件 ',
+GEN_Help_12                 : '使用MoacWalletOnline或者Mist, Geth, Parity以及其它客户端软件来解锁你的帐号.',
+GEN_Help_13                 : '如何备份你的密钥对文件 ',
+GEN_Help_14                 : '这些不同的格式是什么？What are these Different Formats? ',
+GEN_Help_15                 : '防止被盗和丢失你的资金Preventing loss &amp; theft of your funds.',
+GEN_Help_16                 : '这些格式之间有啥不同What are these Different Formats?',
+GEN_Help_17                 : '为啥我Why Should I?',
+GEN_Help_18                 : '额外的备份To have a secondary backup.',
+GEN_Help_19                 : '以防你忘记密码In case you ever forget your password.',
+GEN_Help_20                 : '冷钱包Cold Storage',
+GET_ConfButton              : '我了解了，继续吧I understand. Continue.',
+GEN_Label_5                 : '保存你的`私钥`Save Your `Private Key`. ',
+GEN_Unlock                  : '解锁钱包来查看帐户地址Unlock your wallet to see your address',
+GAS_PRICE_Desc              : '燃料价格（Gas Price）是在交易时购买燃料的单价 is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `41 GSHA`.',
+GAS_LIMIT_Desc              : '燃料上限（Gas limit）是发送交易时提供的最大燃料消耗值 is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending MC = `1000`. Sending Tokens = ~`200000`.',
+NONCE_Desc                  : '交易编号（nonce）是一个帐号已经发送的交易数量The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
+TXFEE_Desc                  : '交易费用（TX fee）是用来支付挖掘区块的矿工费用，等于The TX Fee is paid to miners for including your TX in a block. It is the `gas limit` * `gas price`. [You can convert GWEI -> ETH here](https://www.MoacWalletOnline.com/helpers.html)',
 
 
 /* Navigation*/
@@ -272,7 +270,7 @@ NAV_Contact                 : '联系我们 ',
 NAV_Contracts               : '合同 ',
 NAV_DeployContract          : '部署合约 ',
 NAV_ENS                     : 'ENS',
-NAV_GenerateWallet_alt      : 'New Wallet ',
+NAV_GenerateWallet_alt      : '创建新钱包  ',
 NAV_GenerateWallet          : '生成钱包 ',
 NAV_Help                    : '帮助 ',
 NAV_InteractContract        : 'Interact with Contract ',
@@ -280,8 +278,8 @@ NAV_Multisig                : 'Multisig ',
 NAV_MyWallets               : '我的钱包 ',
 NAV_Offline                 : '离线发送 ',
 NAV_SendEther               : '发送以太币 / 发送代币 ', //combined these tabs
-NAV_SendTokens              : 'Send Tokens ',
-NAV_SignMsg                 : 'Sign Message ',
+NAV_SendTokens              : '发送代币(Token) ',
+NAV_SignMsg                 : '对信息签名 ',
 NAV_Swap                    : 'Swap ',
 NAV_ViewWallet              : '查看钱包信息 ',
 NAV_YourWallets             : '你的钱包 ',
@@ -322,7 +320,7 @@ CX_Tagline                  : '开源JavaScript客户端以太币钱包Chrome扩
 FOOTER_1                    : '一个开源的生成以太坊钱包和发送交易的JavaScript客户端工具 ',
 FOOTER_1b                   : '创建者 ',
 FOOTER_2                    : '欢迎捐赠我们： ',
-FOOTER_3                    : 'Client-side wallet generation by ',
+FOOTER_3                    : '客户端钱包开发者： ',
 FOOTER_4                    : '声明 ',
 
 /* Sidebar */
@@ -335,8 +333,8 @@ sidebar_TransHistory        : '交易历史： ',
 sidebar_donation            : 'MyEtherWallet是保护你的隐私和安全的免费、开源服务。 我们收到的捐赠越多，我们开发新特性、听取你的反馈的时间就越多。我们只是两个尝试改变世界的两个开发者。您能帮助我们吗？ ',
 sidebar_donate              : '捐赠 ',
 sidebar_thanks              : '感谢你！！！ ',
-sidebar_DisplayOnTrezor     : 'Display address on TREZOR',
-sidebar_DisplayOnLedger     : 'Display address on Ledger',
+sidebar_DisplayOnTrezor     : '显示 TREZOR 上的钱包地址',
+sidebar_DisplayOnLedger     : '显示 Ledger 上的钱包地址',
 
 /* Decrypt Panel */
 decrypt_Access              : '你将怎样使用钱包？ ',
@@ -366,7 +364,7 @@ ADD_Label_5                 : '输入地址： ',
 ADD_Label_6                 : '解锁钱包 ',
 ADD_Label_6_short           : '解锁 ',
 ADD_Label_7                 : '增加账户 ',
-ADD_Label_8                 : 'Password (optional): ',
+ADD_Label_8                 : '密码（可选）: ',
 
 /* Generate Wallets */
 GEN_desc                    : '如果你想生成多个钱包，你可以在这里进行： ',
@@ -393,7 +391,7 @@ SEND_generate               : '生成交易 ',
 SEND_raw                    : '未生效交易 ',
 SEND_signed                 : '签名交易 ',
 SEND_trans                  : '发送交易 ',
-SEND_custom                 : 'Add Custom Token ',
+SEND_custom                 : '添加自定义代币 ',
 SENDModal_Title             : '警告！ ',
 /* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : '你将发送 ',
@@ -407,15 +405,15 @@ SENDModal_Yes               : '是的，我确定！发送交易。 ',
 TOKEN_Addr                  : '地址 Token Contract ',
 TOKEN_Symbol                : '代币符号 ',
 TOKEN_Dec                   : '小数点位数 ',
-TOKEN_hide                  : 'Hide Tokens ',
-TOKEN_show                  : 'Show All Tokens ',
+TOKEN_hide                  : '隐藏代币 ',
+TOKEN_show                  : '显示所有代币 ',
 
 /* Send Transaction */
 TRANS_desc                  : '如果你想发送代币，请使用“发送代币”页面。 ',
 TRANS_warning               : '如果你使用“只发送ETH”或则“只发送ETC”功能，那么你是通过合约发送交易。 一些服务（例如交易所充值）接收这些交易时会遇到问题。阅读更多内容。 ',
 TRANS_advanced              : '高级功能：增加更多Gas或者数据 ',
 TRANS_data                  : '数据： ',
-TRANS_gas                   : 'Gas Limit： ',
+TRANS_gas                   : '最高gas限额（Gas Limit）： ',
 TRANS_sendInfo              : '一笔标准交易需要21000gas，花费0.000441以太币。我们将gas价格设为0.000000021以太币，略高于最低价格，以保证交易被快速打包。我们不收取交易费用。 ',
 
 /* Send Transaction Modals */
@@ -486,22 +484,22 @@ CX_error_1                  : '你没有已保存的钱包。点击["添加钱�
 CX_quicksend                : '快速发送 ', // if no appropriate translation, just use "Send"
 
 /* Node Switcher */
-NODE_Title                  : 'Set Up Your Custom Node',
-NODE_Subtitle               : 'To connect to a local node...',
-NODE_Warning                : 'Your node must be HTTPS in order to connect to it via MyEtherWallet.com. You can [download the MyEtherWallet repo & run it locally](https://github.com/kvhnuke/etherwallet/releases/latest) to connect to any node. Or, get free SSL certificate via [LetsEncrypt](https://letsencrypt.org/)',
-NODE_Name                   : 'Node Name',
-NODE_Port                   : 'Node Port',
-NODE_CTA                    : 'Save & Use Custom Node',
+NODE_Title                  : '配置一个自定义区块链节点',
+NODE_Subtitle               : '连接到一个本地节点...',
+NODE_Warning                : '自定义节点必须使用 HTTPS 才能接入 MyEtherWallet.com. You can [download the MyEtherWallet repo & run it locally](https://github.com/kvhnuke/etherwallet/releases/latest) to connect to any node. Or, get free SSL certificate via [LetsEncrypt](https://letsencrypt.org/)',
+NODE_Name                   : '节点名称',
+NODE_Port                   : '节点端口',
+NODE_CTA                    : '保存并使用自定义节点S',
 
 /* Contracts */
-CONTRACT_Title              : 'Contract Address ',
-CONTRACT_Title_2            : 'Select Existing Contract ',
+CONTRACT_Title              : '合约地址 ',
+CONTRACT_Title_2            : '选择部署完成的合约 ',
 CONTRACT_Json               : 'ABI / JSON Interface ',
-CONTRACT_Interact_Title     : 'Read / Write Contract ',
-CONTRACT_Interact_CTA       : 'Select a function ',
-CONTRACT_ByteCode           : 'Byte Code ',
-CONTRACT_Read               : 'READ ',
-CONTRACT_Write              : 'WRITE ',
+CONTRACT_Interact_Title     : '读写合约 ',
+CONTRACT_Interact_CTA       : '选择功能函数 ',
+CONTRACT_ByteCode           : '二进制代码 ',
+CONTRACT_Read               : '读入/出 ',
+CONTRACT_Write              : '写入/出 ',
 
 /* Swap / Exchange */
 SWAP_rates                  : "Current Rates ",
@@ -571,12 +569,12 @@ ERROR_0                     : '请输入有效数额。 ',
 ERROR_1                     : '你的密码至少需要设置为9位。请确保密码足够强。 ',
 ERROR_2                     : '抱歉！我们不能识别这种类型的钱包文件。 ',
 ERROR_3                     : '这不是一个有效的钱包文件。 ',
-ERROR_4                     : 'This unit doesn\'t exists, please use the one of the following units 这个单位不存在，请用下面给出的单位 ',
+ERROR_4                     : '这个以太币单位不存在，请用下面给出的单位 ',
 ERROR_5                     : '无效地址。 ',
 ERROR_6                     : '无效密码。 ',
-ERROR_7                     : '无效数额。(Must be integer. Try 0-18.) ', // 7
-ERROR_8                     : '无效gas上限。(Must be integer. Try 21000-4000000.) ', // 8
-ERROR_9                     : '无效数据值。(Must be hex.) ', // 9
+ERROR_7                     : '无效数额，需要输入整数(Must be integer. Try 0-18.) ', // 7
+ERROR_8                     : '无效gas上限，需要输入整数(Must be integer. Try 21000-4000000.) ', // 8
+ERROR_9                     : '无效数据值，需要输入16进制整数。(Must be hex.) ', // 9
 ERROR_10                    : '无效gas数额。(Must be integer. Try 20 GWEI / 20000000000 WEI.)',
 ERROR_11                    : '无效nonce。(Must be integer.)', // 11
 ERROR_12                    : '无效签名交易。 ',
@@ -587,32 +585,32 @@ ERROR_16                    : '这个地址钱包已经存在于存储中。请�
 ERROR_17                    : '你的账户需要至少0.01以太币，已支付gas费用。请添加一些以太币，再次尝试。 ',
 ERROR_18                    : '所有的gas将用于这笔交易。 这意味着你已经对这个提议进行投票或者辩论期已经结束。 ',
 ERROR_19                    : '无效符号 ',
-ERROR_20                    : 'Not a valid ERC-20 token', // 20
-ERROR_21                    : 'Could not estimate gas. There are not enough funds in the account, or the receiving contract address would throw an error. Feel free to manually set the gas and proceed. The error message upon sending may be more informative.', // 21
-ERROR_22                    : 'Please enter a valid node name', // 22
-ERROR_23                    : 'Please enter a valid URL. If you are on https, your URL must be https', // 23
-ERROR_24                    : 'Please enter a valid port. ', // 24
-ERROR_25                    : 'Please enter a valid chain ID. ', // 25
-ERROR_26                    : 'Please enter a valid ABI. ', // 26
-ERROR_27                    : 'Minimum amount: 0.01. Max amount: ', // 27
+ERROR_20                    : '无效ERC-20代币', // 20
+ERROR_21                    : '无法估计gas用量. There are not enough funds in the account, or the receiving contract address would throw an error. Feel free to manually set the gas and proceed. The error message upon sending may be more informative.', // 21
+ERROR_22                    : '请输入有效节点名称', // 22
+ERROR_23                    : '请输入有效链接 URL. 如果使用安全接口协议 https, 链接必须支持安全接口协议 https', // 23
+ERROR_24                    : '请输入有效端口 port. ', // 24
+ERROR_25                    : '请使用一个有效的区块链网络编号（chain ID）. ', // 25
+ERROR_26                    : '请输入有效 ABI. ', // 26
+ERROR_27                    : '最小数额: 0.01. 最大数额: ', // 27
 ERROR_28                    : '将来使用钱包时，你需要Keystore文件或者私钥。 请做好保存和备份。 如果你没有保存，没有办法恢复钱包。 请阅读[帮助页面](https://www.myetherwallet.com/#help)，获得更多信息。 ',
-ERROR_29                    : 'Please enter a valid user and password. ', // 29
-ERROR_30                    : 'Please enter a valid name (7+ characters, limited punctuation) ', // 30
-ERROR_31                    : 'Please enter a valid secret phrase. ', // 31
-ERROR_32                    : 'Could not connect to the node. Refresh your page, try a different node (upper right corner), check your firewall settings. If custom node, check your configs.', // 32
-ERROR_33                    : 'The wallet you have unlocked does not match the owner\'s address. ', // 33
-ERROR_34                    : 'The name you are attempting to reveal does not match the name you have entered. ', // 34
-ERROR_35                    : 'Input address is not checksummed. <a href="https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html" target="_blank" rel="noopener noreferrer"> More info</a>', // 35
-ERROR_36                    : 'Enter valid TX hash', // 36
-ERROR_37                    : 'Enter valid hex string (0-9, a-f)', // 37
+ERROR_29                    : '请输入正确的用户和密码. ', // 29
+ERROR_30                    : '请输入有效名称 name (7+ 字符, limited punctuation) ', // 30
+ERROR_31                    : '请输入有效私密助记符（secret phrase）. ', // 31
+ERROR_32                    : '无法连接到节点，可以尝试刷新网页或者接入其它的节点（右上角下拉菜单选择），也可以检查防火墙设置. If custom node, check your configs.', // 32
+ERROR_33                    : '解锁地址和拥有者的钱包地址不同. ', // 33
+ERROR_34                    : '输入的名称和之前的不符. ', // 34
+ERROR_35                    : '输入地址没有校验. <a href="https://myetherwallet.github.io/knowledge-base/addresses/not-checksummed-shows-when-i-enter-an-address.html" target="_blank" rel="noopener noreferrer"> More info</a>', // 35
+ERROR_36                    : '输入有效交易哈希值（HASH）', // 36
+ERROR_37                    : '输入有效的16进制字符串 (0-9, a-f)', // 37
 
 SUCCESS_1                   : '有效地址 ',
 SUCCESS_2                   : '钱包解密成功 ',
-SUCCESS_3                   : 'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:   ', //'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //
+SUCCESS_3                   : '你的交易已经广播到区块链网络，但这并不表面交易已经被确认并写入区块.在极端的网络情况下，会有3个小时以上的延迟。为确认交易成功，你可以1）检查交易状态；2）如果交易一直显示pending，或者消失，可以使用检查交易所提供的信息对交易进行替换；3）使用工具检查gas价格是否合适 4) 保存你的交易哈希值HASH以备查询：:   ', //'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETH Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //
 SUCCESS_4                   : '成功添加你的钱包： ',
 SUCCESS_5                   : '选择的文件： ',
-SUCCESS_6                   : 'You are successfully connected ',
-SUCCESS_7                   : 'Message Signature Verified',
+SUCCESS_6                   : '连接区块链成功 ',
+SUCCESS_7                   : '信息的数字签名验证成功',
 WARN_Send_Link              : 'You arrived via a link that has the address, value, gas, data fields, or transaction type (send mode) filled in for you. You can change any information before sending. Unlock your wallet to get started. ',
 
 /* Geth Error Messages */
@@ -644,10 +642,10 @@ TranslatorAddr_1            : '0x4dF5698B1B0195FC44Fe1D2d6037CE33F215c740 ',
 /* Translator 1             : Insert Comments Here */
 TranslatorName_2            : '[ Wenham@coinwallet.shop (文翰) ]((https://www.myetherwallet.com/?gaslimit=21000&to=0x0D2dC3fD9463a7CeBE5f1b946c2D7cF5c3e82127&value=0.1#send-transaction))',
 TranslatorAddr_2            : '0x0D2dC3fD9463a7CeBE5f1b946c2D7cF5c3e82127',
-/* Translator 2             : Insert Comments Here */
-TranslatorName_3            : '',
-TranslatorAddr_3            : '',
-/* Translator 3             : Insert Comments Here */
+/* Translator 2             :  Insert Comments Here */
+TranslatorName_3            : 'zhengpengli@gmail.com (mdranger)',
+TranslatorAddr_3            : '0xf07417f1fd6a1b44c2379CC7d061A62CD3413EE7',
+/* Translator 3             : trans may not be accurate unless we used them */
 TranslatorName_4            : '',
 TranslatorAddr_4            : '',
 /* Translator 4             : Insert Comments Here */
